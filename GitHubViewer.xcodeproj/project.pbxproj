@@ -21,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsView.swift; sourceTree = "<group>"; };
+		2E31CA9329EDD0EF00ECC742 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2E97D82529EC296B00736FE0 /* GitHubViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E97D82829EC296B00736FE0 /* GitHubViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewerApp.swift; sourceTree = "<group>"; };
 		2E97D82A29EC296B00736FE0 /* PopularReposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularReposView.swift; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		2E97D81C29EC296B00736FE0 = {
 			isa = PBXGroup;
 			children = (
+				2E31CA9329EDD0EF00ECC742 /* README.md */,
 				2E97D82729EC296B00736FE0 /* GitHubViewer */,
 				2E97D82629EC296B00736FE0 /* Products */,
 			);

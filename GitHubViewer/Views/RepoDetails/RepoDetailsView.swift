@@ -1,10 +1,3 @@
-//
-//  RepoDetailsView.swift
-//  GitHubViewer
-//
-//  Created by Алексеев Сергей Александрович on 17.04.2023.
-//
-
 import SwiftUI
 
 struct RepoDetailsView: View {
