@@ -11,17 +11,16 @@ struct PopularReposView: View {
     @StateObject private var viewModel = PopularReposViewModel()
     
     var body: some View {
-        VStack {
-            Text("GitHub Viewer")
-                .padding()
-
+        NavigationView {
             List(viewModel.list, id: \.id) { repository in
                 HStack {
-                    Text(repository.name)
+                    NavigationLink(repository.name) {
+                        RepoDetailsView(name: repository.name)
+                    }
                 }
             }.onAppear {
                 viewModel.onAppear()
-            }
+            }.navigationBarTitle("GitHub Viewer", displayMode: .large)
         }
     }
 }

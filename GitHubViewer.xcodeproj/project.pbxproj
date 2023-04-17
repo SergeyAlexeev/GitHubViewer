@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E31CA9229EDC7FE00ECC742 /* RepoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */; };
 		2E97D82929EC296B00736FE0 /* GitHubViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97D82829EC296B00736FE0 /* GitHubViewerApp.swift */; };
 		2E97D82B29EC296B00736FE0 /* PopularReposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97D82A29EC296B00736FE0 /* PopularReposView.swift */; };
 		2E97D82D29EC296D00736FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E97D82C29EC296D00736FE0 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsView.swift; sourceTree = "<group>"; };
 		2E97D82529EC296B00736FE0 /* GitHubViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E97D82829EC296B00736FE0 /* GitHubViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewerApp.swift; sourceTree = "<group>"; };
 		2E97D82A29EC296B00736FE0 /* PopularReposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularReposView.swift; sourceTree = "<group>"; };
@@ -42,6 +44,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E31CA9029EDC7E600ECC742 /* RepoDetails */ = {
+			isa = PBXGroup;
+			children = (
+				2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */,
+			);
+			path = RepoDetails;
+			sourceTree = "<group>";
+		};
 		2E97D81C29EC296B00736FE0 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +94,7 @@
 		2E97D83629EC342900736FE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E31CA9029EDC7E600ECC742 /* RepoDetails */,
 				2E97D83729EC345100736FE0 /* PopularRepos */,
 			);
 			path = Views;
@@ -207,6 +218,7 @@
 				2E97D82B29EC296B00736FE0 /* PopularReposView.swift in Sources */,
 				2E97D84529EC40DE00736FE0 /* PopularRepositoriesResponse.swift in Sources */,
 				2E97D82929EC296B00736FE0 /* GitHubViewerApp.swift in Sources */,
+				2E31CA9229EDC7FE00ECC742 /* RepoDetailsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
