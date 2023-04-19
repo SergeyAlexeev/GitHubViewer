@@ -6,10 +6,8 @@ struct PopularReposView: View {
     var body: some View {
         NavigationView {
             List(viewModel.list, id: \.id) { repository in
-                HStack {
-                    NavigationLink(repository.name) {
-                        RepoDetailsView(name: repository.name)
-                    }
+                NavigationLink(repository.name) {
+                    RepoDetailsView(id: repository.id)
                 }
             }.onAppear {
                 viewModel.onAppear()

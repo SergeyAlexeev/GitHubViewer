@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2E31CA9229EDC7FE00ECC742 /* RepoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */; };
+		2E3FDEBA29F06C910077896B /* RepositoryDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FDEB929F06C910077896B /* RepositoryDetails.swift */; };
+		2E3FDEBC29F06D8D0077896B /* RepoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FDEBB29F06D8D0077896B /* RepoViewModel.swift */; };
+		2E3FDEBE29F06DBA0077896B /* RepoApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FDEBD29F06DBA0077896B /* RepoApiService.swift */; };
+		2E3FDEC129F0729C0077896B /* RepoDetailsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3FDEC029F0729C0077896B /* RepoDetailsRepository.swift */; };
 		2E97D82929EC296B00736FE0 /* GitHubViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97D82829EC296B00736FE0 /* GitHubViewerApp.swift */; };
 		2E97D82B29EC296B00736FE0 /* PopularReposView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97D82A29EC296B00736FE0 /* PopularReposView.swift */; };
 		2E97D82D29EC296D00736FE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E97D82C29EC296D00736FE0 /* Assets.xcassets */; };
@@ -22,6 +26,10 @@
 /* Begin PBXFileReference section */
 		2E31CA9129EDC7FE00ECC742 /* RepoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsView.swift; sourceTree = "<group>"; };
 		2E31CA9329EDD0EF00ECC742 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2E3FDEB929F06C910077896B /* RepositoryDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryDetails.swift; sourceTree = "<group>"; };
+		2E3FDEBB29F06D8D0077896B /* RepoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoViewModel.swift; sourceTree = "<group>"; };
+		2E3FDEBD29F06DBA0077896B /* RepoApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoApiService.swift; sourceTree = "<group>"; };
+		2E3FDEC029F0729C0077896B /* RepoDetailsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDetailsRepository.swift; sourceTree = "<group>"; };
 		2E97D82529EC296B00736FE0 /* GitHubViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E97D82829EC296B00736FE0 /* GitHubViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubViewerApp.swift; sourceTree = "<group>"; };
 		2E97D82A29EC296B00736FE0 /* PopularReposView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularReposView.swift; sourceTree = "<group>"; };
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2E97D83929EC34FF00736FE0 /* PopularReposViewModel.swift */,
+				2E3FDEBB29F06D8D0077896B /* RepoViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -122,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2E97D83C29EC359300736FE0 /* PopularRepositoriesRepository.swift */,
+				2E3FDEC029F0729C0077896B /* RepoDetailsRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -131,6 +141,7 @@
 			children = (
 				2E97D84029EC35E900736FE0 /* Repository.swift */,
 				2E97D84429EC40DE00736FE0 /* PopularRepositoriesResponse.swift */,
+				2E3FDEB929F06C910077896B /* RepositoryDetails.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				2E97D84229EC373500736FE0 /* PopularRepositoriesApiService.swift */,
+				2E3FDEBD29F06DBA0077896B /* RepoApiService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -213,11 +225,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E3FDEBC29F06D8D0077896B /* RepoViewModel.swift in Sources */,
 				2E97D83A29EC34FF00736FE0 /* PopularReposViewModel.swift in Sources */,
 				2E97D83D29EC359300736FE0 /* PopularRepositoriesRepository.swift in Sources */,
 				2E97D84329EC373500736FE0 /* PopularRepositoriesApiService.swift in Sources */,
 				2E97D84129EC35E900736FE0 /* Repository.swift in Sources */,
 				2E97D82B29EC296B00736FE0 /* PopularReposView.swift in Sources */,
+				2E3FDEC129F0729C0077896B /* RepoDetailsRepository.swift in Sources */,
+				2E3FDEBE29F06DBA0077896B /* RepoApiService.swift in Sources */,
+				2E3FDEBA29F06C910077896B /* RepositoryDetails.swift in Sources */,
 				2E97D84529EC40DE00736FE0 /* PopularRepositoriesResponse.swift in Sources */,
 				2E97D82929EC296B00736FE0 /* GitHubViewerApp.swift in Sources */,
 				2E31CA9229EDC7FE00ECC742 /* RepoDetailsView.swift in Sources */,
